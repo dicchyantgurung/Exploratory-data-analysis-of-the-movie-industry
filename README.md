@@ -51,20 +51,20 @@ it is safe to assume that each genre is a separate instance and that the average
 
 The column with multiple genres are split into individual columns. This then is combined back into a single column creating different rows for each genre within a movie. 
 
-![INSERT SAMPLE TABLE HERE]
+![SAMPLE TABLE]
 
 The resultant dataset now can be grouped together by genres using mean to give us a final count of average ratings for each genre.
 
 A horizontal bar graph can be used to give us a visual representation of ratings received for each genre.
 
-![INSERT AVERAGE RATING GRAPH HERE]
+![AVERAGE RATING GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Average_Rating.pdf)
 
 It seems that on average, 'Documentary' is the highest rated of all times followed by 'Game-Show.' 'Horror' and 'Adult' seems to be the least ranked categories.
 
 However, it is also important to note that not all generes received the same amount of votes. The graph above might not be the true repesentation of ratings received for each genre. We will use the number of votes received
 to create a weighted average raing. This will give us a true representation of ratings received for each genre.
 
-![INSERT WEIGHTED AVERAGE RATING GRAPH HERE]
+![WEIGHTED AVERAGE RATING GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Weighted_Average_Rating.pdf)
   
 It is clear in the above graph that 'Drama' is the winner followed by 'Action', 'Adventure' and 'Comedy'. 'Documentary', 'Game-Show', and 'News' seem to have been incorrectly classified before as there were only few good votes for them. 
  
@@ -78,7 +78,7 @@ due to it's genre.
 
 A simple sorting of the 'Number of votes' can give us a good idea on what genres are crowd favourites. A pie chart can be used to represent this distribution. The pie being the total audience in the market and each slice representing the market capitalization(interest) of each genre within the population.
 
-![INSERT PIE CHART HERE]
+![PIE CHART](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Viewer_Reach.pdf)
 
 Here, we can see that 'Drama' has the most reach out of all, which means that it captures the most audience. 'Action', 'Adventure', and 'Comedy' follows similarly.
 
@@ -90,16 +90,16 @@ For this part of the project, we will need to calculate the total number of movi
 
 A line graph can be used to plot number of movies produced each year for all genres.
 
-![INSERT ALL GENRE LINE GRAPH HERE]
+![ALL GENRE LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/All_Rated.pdf)
 
 From this graph we can see that there is an overall decreasing trend in movie production. However, the decrease is not substantial by any means.
 The most produced genre is 'Drama', 'Documentary', 'Comedy', and 'Thriller'. There is a steady production of all these genres over the years except for 'Documentary', which shows a decreasing interest from the public.
 
 We can plot move graphs for other lists explored in the EDA to confirm the trend. 
 
-![INSERT TOP 5 RATING LINE GRAPH HERE]
-![INSERT TOP 5 MOST PRODUCED LINE GRAPH HERE]
-![INSERT LEAST 5 PRODUCED LINE GRAPH HERE]
+![TOP 5 RATING LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Top_5_Rated.pdf)
+![TOP 5 MOST PRODUCED LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Most_5_Produced.pdf)
+![LEAST 5 PRODUCED LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Least_5_Produced.pdf)
 
 ## Conclusion
 
