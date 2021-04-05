@@ -102,7 +102,7 @@ We can plot move graphs for other lists explored in the EDA to confirm the trend
 ## Conclusion
 
 According to the data we have available for this EDA, we can confirm that Drama, Action and Adventure seems to be doing the best in the box office today. They are all highly rated and also represent a big population within the moviegoers.
-The combined average rating comes out to 6.1, which falls third in the individual scale. While also capturing 44.5% of total interest of the movie community.  
+The combined average rating comes out to 6.1, which falls third in the individual scale. While also capturing 44.5% of total interest in the movie community.  
 
 
 
