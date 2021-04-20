@@ -54,7 +54,7 @@ The master dataset is created by merging all six IMDB datasets. Missings values,
 For the first part of the project, we will need to get a total count of 'Average Rating' received for each genre. The one problem in this dataset is that some movies are tagged across multiple genres. Because the movie constitutes all genres that it was tagged,
 it is safe to assume that each genre is a separate instance and that the average ratings received will be the same across each of the genres for the same movie.
 
-The column with multiple genres are split into individual columns. This then is combined back into a single column creating different rows for each genre within a movie. 
+The column with multiple genres are split into individual columns. This is then combined back into a single column creating different rows for each genre within a movie. 
 
 The resultant dataset now can be grouped together by genres using mean to give us a final count of average ratings for each genre.
 
