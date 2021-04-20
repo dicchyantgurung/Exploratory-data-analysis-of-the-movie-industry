@@ -100,7 +100,7 @@ A line graph can be used to plot number of movies produced each year for all gen
 From this graph we can see that there is an overall decreasing trend in movie production. However, the decrease is not substantial by any means.
 The most produced genre is 'Drama', 'Documentary', 'Comedy', and 'Thriller'. There is a steady production of all these genres over the years except for 'Documentary', which shows a decreasing interest from the public.
 
-We can plot move graphs for other lists explored in the EDA to confirm the trend. 
+We can plot more graphs for other lists explored in the EDA to confirm the trend. 
 
 ![TOP 5 RATING LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Top_5_Rated.png)
 ![TOP 5 MOST PRODUCED LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Most_5_Produced.png)
