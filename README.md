@@ -49,7 +49,7 @@ IMDB is one of the most credible sources out there for movie-ratings and popular
 
 The master dataset is created by merging all six IMDB datasets. Missings values, irrelevant columns, and duplicates have been deleted accordingly to fit the purpose of the project.
 
-### 1. Genre Analysis
+### EDA 1. Genre Analysis
 
 For the first part of the project, we will need to get a total count of 'Average Rating' received for each genre. The one problem in this dataset is that some movies are tagged across multiple genres. Because the movie constitutes all genres that it was tagged,
 it is safe to assume that each genre is a separate instance and that the average ratings received will be the same across each of the genres for the same movie.
@@ -72,7 +72,7 @@ to create a weighted average raing. This will give us a true representation of r
 It is clear in the above graph that 'Drama' is the winner followed by 'Action', 'Adventure' and 'Comedy'. 'Documentary', 'Game-Show', and 'News' seem to have been incorrectly classified before as there were only few good votes for them. 
  
 
-### 2 . Genre Outreach
+### EDA 2 . Genre Outreach
 
 For this part of our project, we are looking to analyze the popularity of each genre. This will give us a good indication on what movies people are most likely to watch when it comes out. Ratings come second, so it is good to 
 have an idea of what genres interest the most.
@@ -87,7 +87,7 @@ A simple sorting of the 'Number of votes' can give us a good idea on what genres
 Here, we can see that 'Drama' has the most reach out of all, which means that it captures the most audience. 'Action', 'Adventure', and 'Comedy' follows similarly.
 
 
-### 3. Time-Series Analysis
+### EDA 3. Time-Series Analysis
 
 It is also good to know how many types of movies are been produced each year. This will give us an idea about the changing interest or trend that the population is following in terms of genre preference.
 
