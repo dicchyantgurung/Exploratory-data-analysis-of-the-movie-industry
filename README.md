@@ -62,7 +62,7 @@ A horizontal bar graph can be used to give us a visual representation of ratings
 
 ![AVERAGE RATING GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Average_Rating.png)
 
-It seems that on average, 'Documentary' is the highest rated of all times followed by 'Game-Show'.'Horror' and 'Adult' seems to be the least ranked categories.
+It seems that on average, 'Documentary' is the highest rated of all times followed by 'Game-Show'. 'Horror' and 'Adult' seems to be the least ranked categories.
 
 However, it is also important to note that not all generes received the same amount of votes. The graph above might not be the true repesentation of ratings received for each genre. We will use the number of votes received
 to create a weighted average raing. This will give us a true representation of ratings received for each genre.
