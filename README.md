@@ -4,7 +4,7 @@
 
 ## Business Case:
 
-All the big companies are now getting in on creating their own video content. However, success of these new ventures largely depend on creating the right content.
+All the big companies are now getting in on creating their own video content. However, success of these ventures largely depend on creating the right content.
 
 
 
