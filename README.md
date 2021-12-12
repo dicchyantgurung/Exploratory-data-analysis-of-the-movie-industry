@@ -20,6 +20,12 @@ All the big companies are now getting in on creating their own video content. Ho
 IMDB is one of the most credible sources out there for movie-ratings and popularity. This should provide us with enough quality data to perform our EDA and arrive at a conclusion for our project. 
 
 
+### Assumption:
+
+* The data received from IMDB is the most accurate representation of people's choice and preference in movies.
+* All ratings received are unbiased when compared across different genres in terms of production quality, direction, actor's performance and region of debut.
+
+
 ### Objective:
 
 1. Identify what genres have the the highest ratings in IMDB 
@@ -32,28 +38,11 @@ IMDB is one of the most credible sources out there for movie-ratings and popular
 * Time-Series Analysis
 
 
-### Assumption:
+### Conclusion:
 
-* The data received from IMDB is the most accurate representation of people's choice and preference in movies.
-* All ratings received are unbiased when compared across different genres in terms of production quality, direction, actor's performance and region of debut.
-
-
-## Process Overview:
-
-### 1. Pre-Processing
-
-* Create a master dataset by merging all provided datasets using a unique key.
-* Drop any irrelevant columns.
-* Remove or fill missing values.
-
-### 2. Data Analysis
-
-* Perform EDA with proper visualization to answer all objectives.
-
-### 3. Conclusion
-
-
-------------------------------------------
+- Drama, Action and Adventure are currently doing the best in the box office.
+- These three genres are all highly rated with a combined average-rating of 6.1, which falls third in the individual scale.
+- They also capture almost 50% of the entire movie community.
 
 
 ## Exploratory Data Analysis
