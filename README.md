@@ -40,7 +40,7 @@ IMDB is one of the most credible sources out there for movie-ratings and popular
 
 ### Conclusion:
 
-- Drama, Action and Adventure are currently doing the best in the box office with a combined rating of 6.1/10.
+- Drama, Action and Adventure are currently doing the best in the box office with a combined average-rating of 6.1/10.
 - These three genres also capture almost 50% of the entire movie community making it the most profitable genres of all.
 - Production of movies seem to have been decreasing over the years for all genres.
 
