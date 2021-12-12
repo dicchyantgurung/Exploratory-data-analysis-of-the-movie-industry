@@ -28,21 +28,21 @@ IMDB is one of the most credible sources out there for movie-ratings and popular
 
 ### Objective:
 
-1. Identify what genres have the the highest ratings in IMDB 
+**1. Identify what genres have the the highest ratings in IMDB**
 * Genre Analysis
 
-2. Analyze what genre is most likely to be watched or is preferred by most 
+**2. Analyze what genre is most likely to be watched or is preferred by most**
 * Genre Outreach
 
-3. Analyze the trend in movie production per genre over the years
+**3. Analyze the trend in movie production per genre over the years**
 * Time-Series Analysis
 
 
 ### Conclusion:
 
-- Drama, Action and Adventure are currently doing the best in the box office.
-- These three genres are all highly rated with a combined average-rating of 6.1, which falls third in the individual scale.
-- They also capture almost 50% of the entire movie community.
+- Drama, Action and Adventure are currently the highest rated in the box office with a combined rating of 6.1/10.
+- They also capture 50% of the entire movie community making it the most profitable genres.
+- Production of movies seem to have decreased over the years for all genres.
 
 
 ## Exploratory Data Analysis
