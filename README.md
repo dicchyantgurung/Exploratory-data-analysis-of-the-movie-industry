@@ -101,7 +101,7 @@ There seems to be an overall decreasing trend in movie production. The most prod
 We can plot more graphs for other lists explored in the EDA to confirm the trend. 
 
 ![TOP 5 LINE GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Time_Series_Top_5.png)
-![TOP 5-10 LINE GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Time_Series_Top_5-10.png)
+![TOP 5-10 LINE GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Time_Series_Top_5_10.png)
 
 
 ## Conclusion
