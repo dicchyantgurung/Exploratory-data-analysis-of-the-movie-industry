@@ -61,12 +61,14 @@ The resultant dataset now can be grouped together by genres using mean to give u
 
 A horizontal bar graph can be used to give us a visual representation of ratings received for each genre.
 
+
 ![AVERAGE RATING GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Average_Rating.png)
 
 It seems that on average, 'Documentary' is the highest rated of all times followed by 'Game-Show'. 'Horror' and 'Adult' seems to be the least ranked categories.
 
 However, it is also important to note that not all generes received the same amount of votes. The graph above might not be the true repesentation of ratings received for each genre. We will use the number of votes received
 to create a weighted average raing. This will give us a true representation of ratings received for each genre.
+
 
 ![WEIGHTED AVERAGE RATING GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Weighted_Average_Rating_Votes.png)
   
@@ -81,6 +83,7 @@ With the data spanning across 10 years, it is safe to assume that the number of 
 
 A simple sorting of 'Number of votes' column gives us a good idea on what genres are crowd favourites. A tree map is used here to represent this distribution.
 
+
 ![TREE MAP](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Tree_Map.png)
 
 Here, we can see that 'Drama' has the largest box, which means that it captures the most audience. 'Action', 'Adventure', and 'Comedy' follows similarly.
@@ -94,13 +97,17 @@ For this part of the project, we will need to calculate the total number of movi
 
 A line graph can be used to plot number of movies produced each year for all genres.
 
+
 ![ALL GENRE LINE GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Time_Series_All_2.png)
 
 There seems to be an overall decreasing trend in movie production. The most produced genre is 'Drama', 'Documentary', 'Comedy', and 'Thriller'. There is a steady production of all these genres over the years except for 'Documentary', which shows a decreasing interest from the public.
 
 We can plot more graphs for other lists explored in the EDA to confirm the trend. 
 
+
 ![TOP 5 LINE GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Time_Series_Top_5.png)
+
+
 ![TOP 5-10 LINE GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Time_Series_Top_5_10.png)
 
 
