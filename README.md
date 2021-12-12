@@ -1,5 +1,10 @@
 # Analysis of the Movie Industry
 
+## Business Case:
+
+All the big companies are now getting in on creating their own video content. Success of these new ventures largely depend on creating the right content.
+
+
 ## Project:
 
 * Perform data analysis and create a presentation that explores what types of films are currently doing best at the box office.
@@ -44,10 +49,12 @@ IMDB is one of the most credible sources out there for movie-ratings and popular
 
 ### 3. Conclusion
 
+------------------------------------------
 
-## EDA:
+## Exploratory Data Analysis
 
 The master dataset is created by merging all six IMDB datasets. Missings values, irrelevant columns, and duplicates have been deleted accordingly to fit the purpose of the project.
+
 
 ### EDA 1. Genre Analysis
 
@@ -60,31 +67,29 @@ The resultant dataset now can be grouped together by genres using mean to give u
 
 A horizontal bar graph can be used to give us a visual representation of ratings received for each genre.
 
-![AVERAGE RATING GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Average_Rating.png)
+![AVERAGE RATING GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Average_Rating.png)
 
 It seems that on average, 'Documentary' is the highest rated of all times followed by 'Game-Show'. 'Horror' and 'Adult' seems to be the least ranked categories.
 
 However, it is also important to note that not all generes received the same amount of votes. The graph above might not be the true repesentation of ratings received for each genre. We will use the number of votes received
 to create a weighted average raing. This will give us a true representation of ratings received for each genre.
 
-![WEIGHTED AVERAGE RATING GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Weighted_Average_Rating.png)
+![WEIGHTED AVERAGE RATING GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Weighted_Average_Rating_Votes.png)
   
-It is clear in the above graph that 'Drama' is the winner followed by 'Action', 'Adventure' and 'Comedy'. 'Documentary', 'Game-Show', and 'News' seem to have been incorrectly classified before as there were only few good votes for them. 
+It is clear that 'Drama' is the winner followed by 'Action', 'Adventure' and 'Comedy'. 'Documentary', 'Game-Show', and 'News' seem to have been incorrectly classified before as there were only few good votes for them. 
  
 
 ### EDA 2 . Genre Outreach
 
-For this part of our project, we are looking to analyze the popularity of each genre. This will give us a good indication on what movies people are most likely to watch when it comes out. Ratings come second, so it is good to 
-have an idea of what genres interest the most.
+For this part of our project, we are looking to analyze the popularity of each genre. This will give us a good indication on what movies people are most likely to watch when it comes out. Ratings are a good indicator of movie interest, but it is also good to have an idea of what genres are people talking about the most.
 
-With the data spanning across 10 years, it is safe to assume that the number of votes received can be equivalant to people being interested in watching the movie and participating in the ratings count. Hence, the likelihood of the movie being watched
-due to it's genre.
+With the data spanning across 10 years, it is safe to assume that the number of votes received can be equivalant to people being interested in watching the movie and participating in the voting process. Hence, the likelihood of the movie being watched can be estimated by the total number of votes received. 
 
-A simple sorting of the 'Number of votes' can give us a good idea on what genres are crowd favourites. A pie chart can be used to represent this distribution. The pie being the total audience in the market and each slice representing the market capitalization(interest) of each genre within the population.
+A simple sorting of 'Number of votes' column gives us a good idea on what genres are crowd favourites. A tree map is used here to represent this distribution.
 
-![PIE CHART](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/pie_chart.png)
+![TREE MAP](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Tree_Map.png)
 
-Here, we can see that 'Drama' has the most reach out of all, which means that it captures the most audience. 'Action', 'Adventure', and 'Comedy' follows similarly.
+Here, we can see that 'Drama' has the largest box, which means that it captures the most audience. 'Action', 'Adventure', and 'Comedy' follows similarly.
 
 
 ### EDA 3. Time-Series Analysis
@@ -95,29 +100,40 @@ For this part of the project, we will need to calculate the total number of movi
 
 A line graph can be used to plot number of movies produced each year for all genres.
 
-![ALL GENRE LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/All_Rated.png)
+![ALL GENRE LINE GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Time_Series_All_2.png)
 
-From this graph we can see that there is an overall decreasing trend in movie production. However, the decrease is not substantial by any means.
-The most produced genre is 'Drama', 'Documentary', 'Comedy', and 'Thriller'. There is a steady production of all these genres over the years except for 'Documentary', which shows a decreasing interest from the public.
+There seems to be an overall decreasing trend in movie production. The most produced genre is 'Drama', 'Documentary', 'Comedy', and 'Thriller'. There is a steady production of all these genres over the years except for 'Documentary', which shows a decreasing interest from the public.
 
 We can plot more graphs for other lists explored in the EDA to confirm the trend. 
 
-![TOP 5 RATING LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Top_5_Rated.png)
-![TOP 5 MOST PRODUCED LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Most_5_Produced.png)
-![LEAST 5 PRODUCED LINE GRAPH](https://github.com/dicchyant84/Module_1_Final_Project/blob/main/Graphs/Least_5_Produced.png)
+![TOP 5 LINE GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Time_Series_Top_5.png)
+![TOP 5-10 LINE GRAPH](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Time_Series_Top_5-10.png)
 
 
 ## Conclusion
 
-According to the data we have available for this EDA, we can confirm that Drama, Action and Adventure seems to be doing the best in the box office today. They are all highly rated and also represent a big population within the moviegoers.
-The combined average rating comes out to 6.1, which falls third in the individual scale. While also capturing 44.5% of total interest in the movie community.  
+According to the analysis, we can make the following conclusions:
 
+- Drama, Action and Adventure are currently doing the best in the box office.
+- These three genres are all highly rated with a combined average-rating of 6.1, which falls third in the individual scale.
+- They also capture almost 50% of the entire movie community.
 
+We were also able to see that there has been a decreasing trend in the overall production of all movies. This can be correlated to the recent boom of social media and rise of short-form content consumption. However, we do not have enough data to prove this yet. The decrease in movie production can also be seen as an opportunity with less competetion as movies are still a big part of our daily lives. 
 
+## Recommendation
 
+1. Create content in either Drama, Action, and/or Adventure.
 
+All these three genres are high in demand and will provide the best chance of success if we embark in creating movies with similar content. They also represent almost 50% of the entire movie community, which will ensure high sales and quick promotion of the movie studio.
 
- 
+2. Create movies mixing different genres.
+
+Using Drama, Action, and Adventure as base, we can incorporate new genres which will appeal to a wider audiences and draw new customers to the brand.
+
+3. Release movies in different languages.
+
+Different languages will capture different regions, allowing you to re-introduce the same product in different markets and increase the overall profitability.
+
  
 
 
