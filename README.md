@@ -2,9 +2,10 @@
 
 ![Header](https://github.com/dicchyantgurung/Exploratory-data-analysis-of-the-movie-industry/blob/main/Images/Movie%20header.jpeg)
 
-### Business Case:
+## Business Case:
 
 All the big companies are now getting in on creating their own video content. However, success of these new ventures largely depend on creating the right content.
+
 
 
 ### Project:
@@ -37,19 +38,19 @@ IMDB is one of the most credible sources out there for movie-ratings and popular
 * All ratings received are unbiased when compared across different genres in terms of production quality, direction, actor's performance and region of debut.
 
 
-### Process Overview:
+## Process Overview:
 
-#### 1. Pre-Processing
+### 1. Pre-Processing
 
 * Create a master dataset by merging all provided datasets using a unique key.
 * Drop any irrelevant columns.
 * Remove or fill missing values.
 
-#### 2. Data Analysis
+### 2. Data Analysis
 
 * Perform EDA with proper visualization to answer all objectives.
 
-#### 3. Conclusion
+### 3. Conclusion
 
 
 ------------------------------------------
