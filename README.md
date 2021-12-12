@@ -10,7 +10,7 @@ All the big companies are now getting in on creating their own video content. Ho
 
 ### Project:
 
-* Perform data analysis and create a presentation that explores what types of films are currently doing best at the box office.
+* Perform data analysis of the movie industry that explores what types of films are currently doing best at the box office.
 
 
 ### Dataset:
