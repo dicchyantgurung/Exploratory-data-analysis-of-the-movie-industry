@@ -124,15 +124,15 @@ We were also able to see that there has been a decreasing trend in the overall p
 
 ## Recommendation
 
-1. Create content in either Drama, Action, and/or Adventure.
+*1. Create content in either Drama, Action, and/or Adventure.*
 
 All these three genres are high in demand and will provide the best chance of success if we embark in creating movies with similar content. They also represent almost 50% of the entire movie community, which will ensure high sales and quick promotion of the movie studio.
 
-2. Create movies mixing different genres.
+*2. Create movies mixing different genres.*
 
 Using Drama, Action, and Adventure as base, we can incorporate new genres which will appeal to a wider audiences and draw new customers to the brand.
 
-3. Release movies in different languages.
+*3. Release movies in different languages.*
 
 Different languages will capture different regions, allowing you to re-introduce the same product in different markets and increase the overall profitability.
 
